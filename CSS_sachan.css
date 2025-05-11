@@ -1,3 +1,80 @@
-.title {
-    color: #02ccba;
-  }
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+header{
+  height:90px;
+  background-color:#26d0c9;
+}
+
+.header-logo{
+  float:left;
+  padding:20px 40px;
+  color:#fff;
+  font-size:36px;
+}
+.header-moji li{
+  padding:33px 20px;
+  color:#fff;
+  float:left;
+
+}
+.main_moji{
+  padding:100px 80px;
+}
+.main_moji h1{
+  font-size:140px;
+}
+.main_moji span{
+  color:red;
+}
+.main_moji h2{
+  font-size:60px;
+}
+.sub_moji{
+  font-size:28px;
+  border:2px solid #dee7ec;
+}
+.sub_gazou{
+  float:left;
+  padding-right:40px;
+  
+}
+.sub_gazou p{
+  font-size:24px;
+  padding-top:30px;
+}
+.sub{
+  height:500px;
+  padding:100px 80px;
+}
+.main_info{
+  width:400px;
+}
+.main_info2{
+  font-size:28px;
+  margin-bottom:15px;
+}
+.moji_info p{
+}
+input, textarea{
+  border:1px solid #dee7ec;
+  width:400px;
+  padding-left:20px;
+  padding-right:20px;
+  font-size:18px;
+}
